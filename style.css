@@ -5,4 +5,5 @@ html, body {
 
 body {
     background: linear-gradient(to bottom, orange, blue);
+    color: white
 }
