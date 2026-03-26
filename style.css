@@ -4,6 +4,14 @@ html, body {
 }
 
 body {
-    background: linear-gradient(to bottom, orange, blue);
-    color: white
+    background: #222222;
+    color: #ababab;
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ababab;
+    text-align: center;
 }
