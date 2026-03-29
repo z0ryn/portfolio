@@ -4,14 +4,47 @@ html, body {
 }
 
 body {
-    background: #222222;
-    color: #ababab;
+    background: #f2f2f2;
+    color: #ff8000;
     font-size: 20px;
     font-family: "Orbitron", sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-size: 72px;
-    color: #ababab;
+    color: #ff8000;
     text-align: center;
+}
+
+.icon {
+    position: absolute;
+    height: 50px;
+}
+
+div#main {
+    background-color: #e2e2e2;
+}
+
+section#htmlskill, section#cssskill {
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative; /* Make it a containing block for absolutes */
+    min-height: 220px;  /* Ensure border encloses all content */
+    padding: 10px;      /* Give some spacing inside border */
+}
+
+span#css-test {
+    color: blue;
+}
+
+span#font-test {
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
 }
